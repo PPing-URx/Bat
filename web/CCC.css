@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slideshow {
+    max-width: 1000px;
+    max-height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.item {
+    max-width: 1000px;
+    max-height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item img {
+    width: 1000px;
+    height: 200px;
+    object-fit: cover;
+}
